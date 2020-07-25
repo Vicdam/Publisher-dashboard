@@ -59,8 +59,8 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -189,7 +189,10 @@
 
         <div class="pd-head container">
           <h3 class="pd-h3">Tasks Overview</h3>
-          <p class="pd-p">Available Balance: N250,000</p>
+          <p class="pd-p">
+            <span class="available"> Available Balance:</span>
+            <span class="balance">N250,000</span>
+          </p>
         </div>
 
         <!-- Top Section Cards -->
@@ -198,7 +201,7 @@
             <div class="card-deck">
 
               <!-- Top Section Card 1 -->
-              <div class="card pd-card">
+              <div class="card pd-card col-md-12">
 
                 <div class="card-text">
                   <h5 class="card-title feature-card-title">CocaCola Tasks Overview</h5>
@@ -250,7 +253,7 @@
               </div>
 
               <!-- Top Section card 2 -->
-              <div class="card pd-card">
+              <div class="card pd-card col-md-12">
 
                 <div class="card-text">
                   <h5 class="card-title feature-card-title">Hotels.ng Tasks Overview</h5>
@@ -302,7 +305,7 @@
               </div>
 
               <!-- Top section Card 3 -->
-              <div class="card pd-card">
+              <div class="card pd-card col-md-12">
 
                 <div class="card-text">
                   <h5 class="card-title feature-card-title">Start.ng Tasks Overview</h5>
@@ -357,6 +360,17 @@
 
           </div>
         </div>
+
+        <div class="container">
+          <div class="slider">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#" class="blue"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+        </div>
+
       </section>
       <!-- End of Top Section -->
 
@@ -381,8 +395,13 @@
               <h3 class="new-arrival pd-h3">New Arrivals</h3>
 
               <div class="ancor-container">
-                <a href="#" class="arrival-btn arrival-btn-1">categories</a>
-                <a href="#" class="arrival-btn arrival-btn-2">Service option</a>
+                <a href="#" class="arrival-btn arrival-btn-1">categories
+                  <span class="drop-icon"> <i class="fas fa-chevron-down"></i></span>
+                </a>
+                <a href="#" class="arrival-btn arrival-btn-2">Service option
+                  <span class="drop-icon"><i class="fas fa-chevron-down"></i></span>
+                </a>
+                <i class="fas fa-sliders-h  toggle"></i>
               </div>
             </div>
 
@@ -537,6 +556,16 @@
 
             </div>
 
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="slider">
+            <a href="#"></a>
+            <a href="#" class="blue"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
           </div>
         </div>
       </section>
