@@ -194,10 +194,6 @@ body {
   margin-bottom: 20px;
 }
 
-.drop-icon {
-  /* padding-left: 10px; */
-}
-
 .toggle {
   margin-top: 20px;
 }
@@ -262,9 +258,9 @@ body {
 }
 
 @media (max-width: 1026px) {
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
 
   .pd-p {
     margin-top: -42px;
@@ -310,9 +306,7 @@ body {
 @media (max-width: 767px) {
 
   /* @media only screen and (min-device-width: 0px) and(max-device-width: 767px) { */
-  body {
-    background-color: green;
-  }
+
 
   .pd-h3 {
     font-size: 18px;
@@ -321,5 +315,72 @@ body {
 
   .pd-p {
     font-size: 14px;
+    margin-left: 65%;
+  }
+
+  .container {
+    padding-right: 14px !important;
+    padding-left: 6px !important;
+  }
+
+  .percentage-image {
+    height: 150px;
+    width: 150px;
+    margin-left: 66px;
+  }
+
+  .pd-card {
+    height: 476px;
+  }
+
+  .mobile-card {
+    margin-top: -125px;
+  }
+
+  .complete {
+    font-size: 17px;
+    line-height: 1px;
+  }
+
+  .percentage {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .slider>a {
+    height: 10px;
+    width: 10px;
+    margin: 1px 3px 0;
+  }
+
+  .chart-image {
+    width: 108%;
+  }
+
+  .bottom-image {
+    margin-left: 6px;
+  }
+
+  .card-btn {
+    margin-left: 187px;
+    margin-top: -81px;
+  }
+
+  .new-arrival-section {
+    margin-bottom: 0;
+  }
+
+  .ancor-container {
+    margin-top: -5px;
+    margin-left: -22px;
+    height: 54px;
+  }
+
+  .arrival-btn-1 {
+    padding: 6px 3px 6px 8px;
+  }
+
+  .arrival-btn-2 {
+    padding: 6px 0px 6px 7px;
   }
 }
