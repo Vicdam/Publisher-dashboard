@@ -17,7 +17,6 @@
 
 body {
   background: var(--background-color);
-  margin-top: 20px;
   font-family: var(--main-font-family);
 }
 
@@ -69,19 +68,19 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: var(--dark-font-color);
-  margin-left: 15px;
+  margin-left: 18px;
 }
 
 .first {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 26px;
   color: var(--blue-font-color);
 }
 
 .second {
   float: right;
-  margin-right: 15px;
-  font-size: 19px;
+  margin-right: 13px;
+  font-size: 16px;
   line-height: 26px;
 }
 
@@ -112,7 +111,8 @@ body {
   display: inline-block;
   padding-top: 17px;
   padding-bottom: 17px;
-  background-color: var(--card-background-color);
+  background: transparent;
+  background-color: transparent;
 }
 
 .percentage {
@@ -136,18 +136,24 @@ body {
   text-align: center;
   border: none;
   position: relative;
+  background: transparent;
+  background-color: transparent;
 }
 
 .percentage-image {
   height: 130px;
   width: 130px;
   position: absolute;
-  margin-left: 20px;
+  margin-left: auto;
   text-align: center;
+  margin-right: 15px;
+  /* top: 48%;
+  right: -64%;
+  transform: translate(-50%, -50%); */
 }
 
 .chart-section {
-  margin-top: 50px;
+  margin-top: 8px;
   /* width: 100%; */
 }
 
@@ -166,7 +172,7 @@ body {
 
 /* New Arrival Section Starts Here */
 .new-arrival-section {
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .card-btn {
@@ -183,14 +189,17 @@ body {
   text-decoration: none;
 }
 
-a {
-  list-style: none;
-  text-decoration: none;
-}
-
 .new-arrival-text {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.drop-icon {
+  /* padding-left: 10px; */
+}
+
+.toggle {
+  margin-top: 20px;
 }
 
 .arrival-btn {
@@ -203,17 +212,114 @@ a {
 }
 
 .arrival-btn-1 {
-  padding: 9px 37px;
+  padding: 6px 42px 6px 8px;
   width: 99px;
 }
 
 .arrival-btn-2 {
-  padding: 9px 22px;
+  padding: 6px 19px 6px 7px;
   width: 100px;
   margin-right: 38px;
 }
 
 .ancor-container {
   float: right;
-  margin-top: 4px;
+  margin-top: -12px;
+  height: 45px;
+}
+
+.slider {
+  text-align: center;
+}
+
+.slider>a {
+  display: inline-flex;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: var(--card-background-color);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+  border-color: var(--blue-font-color);
+  border: 1px solid var(--blue-font-color);
+  margin: 25px 8px 0;
+}
+
+.slider>a:active {
+  top: 1px;
+}
+
+.slider>a:focus {
+  background: var(--blue-font-color);
+}
+
+.blue {
+  background: var(--blue-font-color);
+}
+
+@media (max-width: 1026px) {
+  body {
+    background-color: red;
+  }
+
+  .pd-p {
+    margin-top: -42px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-left: -2px;
+  }
+
+  .first {
+    font-size: 14px;
+  }
+
+  .second {
+    font-size: 14px;
+  }
+
+  .percentage-image {
+    height: 115px;
+    width: 115px;
+    margin-left: -25px;
+  }
+
+  .percentage {
+    font-size: 25px;
+  }
+
+  .complete {
+    font-size: 18px;
+    line-height: 10px;
+  }
+
+  .card-btn {
+    padding: 22px 13px;
+    width: 76px;
+    margin-left: 5px;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+
+  /* @media only screen and (min-device-width: 0px) and(max-device-width: 767px) { */
+  body {
+    background-color: green;
+  }
+
+  .pd-h3 {
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+  .pd-p {
+    font-size: 14px;
+  }
 }
